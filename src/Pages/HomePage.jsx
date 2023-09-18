@@ -63,7 +63,7 @@ const HomePage = () => {
   };
 
   const handleURLCopy = () => {
-    navigator.clipboard.writeText(`http://localhost:5173/${shortURL}`);
+    navigator.clipboard.writeText(`https://url-shortener-gegaa.vercel.app/${shortURL}`);
     setCopy(true);
   };
 
@@ -84,11 +84,11 @@ const HomePage = () => {
             <h1>Link:</h1>
             <a
               className="Link__"
-              href={`http://localhost:5173/${shortURL}`}
+              href={`https://url-shortener-gegaa.vercel.app/${shortURL}`}
               target="_blank"
               rel="noreferrer"
             >
-              localhost:5173/{shortURL}
+              https://url-shortener-gegaa.vercel.app//{shortURL}
             </a>
             <button className="Copy__" onClick={handleURLCopy}>
               <Icon icon="carbon:copy" className="Icon__" />
