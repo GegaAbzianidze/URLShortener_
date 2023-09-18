@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+
+body {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%231e3266'%3e%3c/rect%3e%3cpath d='M1464 560L0 560 L0 332.27Q11.25 271.52%2c 72 282.77Q142.24 233.01%2c 192 303.25Q246.54 285.79%2c 264 340.34Q340.55 296.89%2c 384 373.44Q400.84 270.28%2c 504 287.12Q576.39 239.51%2c 624 311.91Q690.07 257.98%2c 744 324.05Q790.6 250.65%2c 864 297.25Q920.56 281.81%2c 936 338.38Q980.09 310.47%2c 1008 354.56Q1014.1 288.66%2c 1080 294.76Q1153.78 296.53%2c 1152 370.31Q1172.41 270.72%2c 1272 291.13Q1345.66 244.79%2c 1392 318.46Q1452.53 306.99%2c 1464 367.51z' fill='%23182f5d'%3e%3c/path%3e%3cpath d='M1488 560L0 560 L0 431.55Q68.18 379.73%2c 120 447.91Q132.63 388.55%2c 192 401.18Q231.45 320.63%2c 312 360.09Q377.56 305.65%2c 432 371.22Q523.25 342.48%2c 552 433.73Q572.65 382.38%2c 624 403.04Q641.38 348.43%2c 696 365.81Q750.17 299.99%2c 816 354.16Q904.62 322.78%2c 936 411.4Q978.27 381.67%2c 1008 423.94Q1019.69 363.63%2c 1080 375.33Q1132.28 307.61%2c 1200 359.88Q1258.24 346.12%2c 1272 404.35Q1328.08 388.43%2c 1344 444.5Q1374.43 402.93%2c 1416 433.36Q1411.62 356.98%2c 1488 352.59z' fill='%2325467d'%3e%3c/path%3e%3cpath d='M1464 560L0 560 L0 459.73Q49.21 388.94%2c 120 438.15Q212.86 411%2c 240 503.86Q260.91 404.77%2c 360 425.68Q404.93 398.61%2c 432 443.53Q480.86 420.39%2c 504 469.25Q545.6 390.85%2c 624 432.45Q670.65 407.11%2c 696 453.76Q763.73 449.49%2c 768 517.21Q806.06 435.27%2c 888 473.34Q923.94 389.28%2c 1008 425.23Q1073.51 370.74%2c 1128 436.24Q1198.33 386.57%2c 1248 456.9Q1312.63 449.53%2c 1320 514.17Q1336.87 459.04%2c 1392 475.91Q1415.22 427.13%2c 1464 450.35z' fill='%23356cb1'%3e%3c/path%3e%3cpath d='M1512 560L0 560 L0 568.3Q23.99 520.29%2c 72 544.28Q117.38 469.66%2c 192 515.04Q220.35 471.38%2c 264 499.73Q349.97 465.7%2c 384 551.67Q405.5 501.16%2c 456 522.66Q483.04 477.7%2c 528 504.75Q558.3 463.05%2c 600 493.35Q653.08 474.43%2c 672 527.51Q746.5 482%2c 792 556.5Q858.91 503.41%2c 912 570.33Q980.02 518.35%2c 1032 586.37Q1058.8 493.16%2c 1152 519.96Q1206.97 454.94%2c 1272 509.91Q1343.11 461.02%2c 1392 532.13Q1467.63 487.75%2c 1512 563.38z' fill='white'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+.Container__ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Title__ {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.Form__ {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.Input__ {
+  background: 0;
+  border: 0;
+  outline: none;
+  width: 80vw;
+  max-width: 400px;
+  font-size: 1.5em;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 0.4rem;
+  color: white;
+}
+
+.Input__::placeholder {
+  color: lightgrey;
+}
+
+.Input__:focus {
+  border-bottom: 1px solid white;
+}
+
+.URL__ {
+  font-size: 1.5rem;
+}
+
+.Button__ {
+  background: #356cb1;
+  border: 0;
+  outline: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.Button__:hover {
+  background: #2c5a9c;
+}
+
+.Result__Form__ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.Link__ {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.Link__:hover {
+  text-decoration: underline;
+}
+
+.Icon__ {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.Icon__:hover {
+  color: #356cb1;
+}
+
+.Copy__ {
+  background: 0;
+  border: 0;
+  color: white;
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+.Icon__Done__ {
+  width: 1rem;
+  height: 1rem;
+  color: black;
+}
+
+.Success__copy__ {
+  width: 40vw;
+  max-width: 400px;
+  height: 2rem;
+  background-color: rgb(42, 247, 42);
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-weight: 700;
+  gap: 0.5rem;
+}
+
+.Loading__icon__{
+    scale: 10;
+    animation: spin 1s linear infinite;
+}
+
+.Loading__{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+@media screen and (max-width: 768px) {
+  .Title__ {
+    font-size: 3rem;
+  }
+
+  .Form__ {
+    flex-direction: column;
+  }
+
+  .Input__ {
+    width: 80vw;
+    max-width: 400px;
+  }
+
+  .Button__ {
+    width: 80vw;
+    max-width: 400px;
+  }
+
+  .Result__Form__ {
+    flex-direction: column;
+  }
+
+  .Success__copy__ {
+    width: 80vw;
+    max-width: 400px;
+    margin-top: 1rem;
+  }
+}
